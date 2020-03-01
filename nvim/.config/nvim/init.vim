@@ -6,11 +6,8 @@ set number relativenumber
 set rtp+=~/.config/nvim/bundle/Vundle.vim
 call vundle#begin('~/.config/nvim/bundle')
 
-<<<<<<< HEAD
 Plugin 'VundleVim/Vundle.vim'
-=======
-Plugin 'gmarik/Vundle.vim'
->>>>>>> 256db952ad2e62b064318558f8382dceed6e3895
+
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'vim-syntastic/syntastic'
