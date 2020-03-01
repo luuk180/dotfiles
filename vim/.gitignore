@@ -1,0 +1,2 @@
+.config/vim/bundle/**
+!.config/vim/bundle/Vundle.vim
