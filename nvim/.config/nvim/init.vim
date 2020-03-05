@@ -4,7 +4,7 @@ syntax on
 set number relativenumber
 
 set rtp+=~/.config/nvim/bundle/Vundle.vim
-call vundle#begin()
+call vundle#begin("~/.config/nvim/bundle")
 
 Plugin 'VundleVim/Vundle.vim'
 
