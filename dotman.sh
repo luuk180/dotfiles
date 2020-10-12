@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Very much WIP
 
 init_check() {
 	# Check if it's the first time use
