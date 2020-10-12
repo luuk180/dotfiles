@@ -9,9 +9,10 @@ call vundle#begin("~/.config/nvim/bundle")
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'tmhedberg/SimpylFold'
-Plugin 'vim-scripts/indentpython.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
+
+Plugin 'xuhdev/vim-latex-live-preview'
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
@@ -19,7 +20,7 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-Bundle 'Valloric/YouCompleteMe'
+Plugin 'zxqfl/tabnine-vim'
 
 call vundle#end()
 filetype plugin indent on
