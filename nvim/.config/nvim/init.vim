@@ -12,8 +12,6 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
 
-Plugin 'xuhdev/vim-latex-live-preview'
-
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 
