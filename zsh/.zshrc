@@ -104,3 +104,5 @@ cat ~/notes
 alias zshconfig="nvim ~/.zshrc"
 alias nm="neomutt"
 alias lock="i3lock -c 999990"
+alias batterysave="echo 1 | sudo tee -a /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode"
+alias batteryunsave="echo 0 | sudo tee -a /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode"
